@@ -18,5 +18,5 @@ phonebook_dict['Bob'] = '968-345-2345'
 
 # Print all the phone entries.
 print()
-for name in phonebook_dict:
-    print("{0}: {1}".format(name, phonebook_dict[name]))
+for name, phone in phonebook_dict.items():
+    print("{0}: {1}".format(name, phone))
